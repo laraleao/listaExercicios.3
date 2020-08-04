@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Média Idades</title>
+  </head>
+  <body>
+    <h1>Insira 5 nomes e suas respectivas idades abaixo:</h1>
+    <p>Vamos calcular a média entre elas.</p>
+
+    <form id="pessoasIdade" action="enviar">
+      <input type="text" id="nome1" placeholder="1° Nome:" />
+      <input type="number" id="calc-media1" placeholder="Média 1" />
+      <br />
+      <input type="text" id="nome2" placeholder="2° Nome:" />
+      <input type="number" id="calc-media2" placeholder="Média 2" />
+      <br />
+      <input type="text" id="nome3" placeholder="3° Nome:" />
+      <input type="number" id="calc-media3" placeholder="Média 3" />
+      <br />
+      <input type="text" id="nome4" placeholder="4° Nome:" />
+      <input type="number" id="calc-media4" placeholder="Média 4" />
+      <br />
+      <input type="text" id="nome5" placeholder="5° Nome:" />
+      <input type="number" id="calc-media5" placeholder="Média 5" />
+      <br />
+
+      <button onclick="media()" type="submit">
+        Calcule
+      </button>
+
+      <script src="./mediaIdades.js"></script>
+    </form>
+  </body>
+</html>
